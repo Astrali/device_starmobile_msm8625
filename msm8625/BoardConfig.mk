@@ -8,6 +8,7 @@ TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := msm8625
 TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv7-a-neon
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom loglevel=1 vmalloc=200M
 BOARD_KERNEL_BASE := 0x00200000
